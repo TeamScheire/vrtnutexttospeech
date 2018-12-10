@@ -16,11 +16,11 @@ Deze plug-in is een voorbeeld en werkt enkel met de web player van [VRT Nu](http
 1.  Zet 'Ontwikkelaarsmodus' aan.
 1.  Kies 'Uitgepakte extensie laden'.
 1.  Browse naar de locatie van deze repo en kies de folder `ext_vrtnu`.
-1.  Er komt een optie scherm, dit mag je sluiten.
-1.  De extensie is nu beschikbaar en je kan op de website van [VRT Nu](https://www.vrt.be/vrtnu/) naar een anderstalig programma kijken, met hulp van de plug-in. Deze kan je activeren door erop te klikken.
-   - Plug-in icon groen: niet in gebruik.
-   - Plug-in icon rood: actief.
-   - Plug-in icon zwart: de ondertitels zijn niet beschikbaar voor deze video (dit kan gebeuren voor programma's waarbij geen ondertitels werden geleverd).
+1.  Er komt mogelijks een optie scherm, dit mag je sluiten.
+1.  De extensie is nu beschikbaar, rechtsboven in chrome staat nu een extra icoontje. Je kan op de website van [VRT Nu](https://www.vrt.be/vrtnu/a-z/team-scheire/) naar een anderstalig programma kijken, met hulp van de plug-in. Deze kan je activeren door erop te klikken.
+   - ![groen](ext_vrtnu/icons/luidop20.png) Plug-in icon groen: niet in gebruik.
+   - ![groen](ext_vrtnu/icons/luidop20_active.png) Plug-in icon rood: actief.
+   - ![groen](ext_vrtnu/icons/luidop20_gray.png) Plug-in icon zwart: de ondertitels zijn niet beschikbaar voor deze video (dit kan gebeuren voor programma's waarbij geen ondertitels werden geleverd).
 
 ## Hoe ga je te werk om zelf een plug-in te bouwen voor een andere player
 Voor de VRT site maken we gebruik van HTML5 elementen op de host pagina, om zo vanuit de plug-in de HTML5 `<video>` aan te spreken. Omdat plug-in's in een 'security sandbox' uitgevoerd worden kunnen we niet aan de JavaScript van de host pagina. We gebruiken content scripts om te communiceren met de host pagina. Meer [hier](https://developer.chrome.com/extensions/content_scripts).
