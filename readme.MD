@@ -1,14 +1,18 @@
-## VRT NU player - Browser Extensie voor luidop lezen van ondertitels (WebVTT)
+# VRT NU player - Browser Extensie voor luidop lezen van ondertitels (WebVTT)
 
-### Browser extensie voor VRT Nu player
+## Browser extensie voor VRT Nu player
 In het programma [Team Scheire](https://www.canvas.be/team-scheire) werd er voor Wouter een browser plug-in gebouwd dat hem toelaat on-demand content te bekijken met ondertitels die luidop worden gelezen. Voor het luidop lezen wordt er gebruik gemaakt van [Speech Synthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis). 
 
 Deze plug-in is een voorbeeld en werkt enkel met de web player van [VRT Nu](https://www.vrt.be/vrtnu/). Een gelijkaardige oplossing kan dus worden gebouwd voor andere players waarbij er ondertitels beschikbaar zijn. 
 
-    Deze plug-in is een voorbeeld en geen productiecode.
+	Deze plug-in is een voorbeeld en geen productiecode.
+
+## Via de Chrome Web Store
+
+De plugin staat nu ook beschikbaar in [de chrome web store](https://chrome.google.com/webstore/detail/vrt-nu-ondertitel-voorlez/ejnaiofkobgmpkchpbbgkelgalcpngmj). Dit is de eenvoudigste manier om hem te installeren.
 
 
-## Hoe ga je te werk om deze plug-in zelf te gebruiken
+## Zelf downloaden en installeren
 
 1.  [Download de laatste release](https://github.com/TeamScheire/vrtnutexttospeech/archive/v0.1.zip) van deze repo (of clone deze GitHub repo en download alles als zip file).
 1.  In Google Chrome, ga naar 'Google Chrome beheren en aanpassen' (die blokjes rechts van je adresbalk).
@@ -17,7 +21,11 @@ Deze plug-in is een voorbeeld en werkt enkel met de web player van [VRT Nu](http
 1.  Kies 'Uitgepakte extensie laden'.
 1.  Browse naar de locatie van deze repo en kies de folder `ext_vrtnu`.
 1.  Er komt mogelijks een optie scherm, dit mag je sluiten.
-1.  De extensie is nu beschikbaar, rechtsboven in chrome staat nu een extra icoontje. Je kan op de website van [VRT Nu](https://www.vrt.be/vrtnu/a-z/team-scheire/) naar een anderstalig programma kijken, met hulp van de plug-in. Deze kan je activeren door erop te klikken.
+
+
+## Gebruik
+Rechtsboven in chrome staat nu een extra icoontje. Je kan op de website van [VRT Nu](https://www.vrt.be/vrtnu/a-z/team-scheire/) naar een anderstalig programma kijken, met hulp van de plug-in. Deze kan je activeren door erop te klikken.
+
    - ![groen](ext_vrtnu/icons/luidop20.png) Plug-in icon groen: niet in gebruik.
    - ![groen](ext_vrtnu/icons/luidop20_active.png) Plug-in icon rood: actief.
    - ![groen](ext_vrtnu/icons/luidop20_gray.png) Plug-in icon zwart: de ondertitels zijn niet beschikbaar voor deze video (dit kan gebeuren voor programma's waarbij geen ondertitels werden geleverd).
