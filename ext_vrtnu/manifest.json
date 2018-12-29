@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "VRT NU ondertitel voorlezer",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Werkt met VRT NU player om ondertitels luidop te lezen.",
   "author": "KDG",
   "permissions": [
